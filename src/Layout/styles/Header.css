@@ -1,0 +1,50 @@
+.header {
+  height: 120px;
+  width: 100%;
+  background-color: var(--color-red);
+  position: relative;
+}
+.header__img {
+  max-width: 350px;
+  margin-left: 10px;
+}
+.header__black {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+}
+.header__circle {
+  position: absolute;
+  width: 70px;
+  aspect-ratio: 1;
+  background-color: black;
+  border-radius: 50%;
+  bottom: 5px;
+  right: 10px;
+  transform: translateX(-50%);
+}
+.header__circle-int {
+  position: absolute;
+  width: 50px;
+  aspect-ratio: 1;
+  background-color: black;
+  border: 10px solid white;
+  border-radius: 50%;
+  bottom: 15px;
+  right: 30px;
+  transform: translateX(-50%);
+}
+.header__logout {
+  margin-top: 5px;
+  margin-left: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 300ms color ease;
+}
+.header__logout:hover {
+  color: red;
+}

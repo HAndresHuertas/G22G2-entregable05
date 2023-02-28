@@ -1,0 +1,37 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 120px;
+  width: 100%;
+  background-color: var(--color-red);
+}
+.footer__black {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+}
+.footer__circle {
+  position: absolute;
+  width: 70px;
+  aspect-ratio: 1;
+  background-color: black;
+  border-radius: 50%;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.footer__circle-int {
+  position: absolute;
+  width: 50px;
+  aspect-ratio: 1;
+  background-color: black;
+  border: 10px solid white;
+  border-radius: 50%;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+}

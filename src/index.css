@@ -1,0 +1,30 @@
+/* Variables */
+
+:root {
+  --color-red: #fe1936;
+  --color-btn: #d93f3f;
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
